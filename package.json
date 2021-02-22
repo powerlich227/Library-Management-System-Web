@@ -1,0 +1,32 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error:\" && exit 1" 
+  },
+  "dependencies": {
+    "asyncawait": "^3.0.0",
+    "config-lite": "^3.0.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.5",
+    "express": "^4.16.4",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.1",
+    "express-winston": "^4.0.5",
+    "hash-set": "^1.0.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "marked": "^1.2.8",
+    "moment": "^2.29.1",
+    "mongolass": "^4.4.7",
+    "monk": "^7.3.3",
+    "morgan": "~1.9.1",
+    "objectid-to-timestamp": "^1.3.0",
+    "sha1": "^1.1.1",
+    "winston": "^3.3.3"
+  }
+}

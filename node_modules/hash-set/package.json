@@ -1,0 +1,38 @@
+{
+  "name": "hash-set",
+  "version": "1.0.1",
+  "description": "Set with custom equality comparisons",
+  "license": "MIT",
+  "repository": "blond/hash-set",
+  "author": "Andrew Abramov <mail@blond.im> (github.com/blond)",
+  "keywords": [
+    "set",
+    "hash",
+    "equality",
+    "comparison",
+    "sameness",
+    "same-value-zero"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.18.1",
+    "coveralls": "^2.11.9",
+    "eslint": "^3.0.0",
+    "eslint-config-pedant": "^0.8.0",
+    "nyc": "^10.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run cover",
+    "lint": "eslint .",
+    "unit-test": "ava",
+    "cover": "nyc ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  }
+}
